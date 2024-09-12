@@ -1,0 +1,29 @@
+<div class="grid grid-cols-3">
+  <app-product
+  (addToCart)="addProductToCart($event)"
+    title="producto1"
+    [price]="12"
+    img="https://picsum.photos/640/640?r=23"
+  ></app-product>
+  <app-product
+  title="producto 2 "
+  [price]="50"
+  img="https://picsum.photos/640/640?r=10"
+></app-product>
+
+<app-product
+  title="producto 3"
+  [price]="100"
+  img="https://picsum.photos/640/640?r=20"
+></app-product>
+<app-product
+  title="producto 4"
+  [price]="200"
+  img="https://picsum.photos/640/640?r=30"
+></app-product>
+<app-product
+  title="producto 5"
+  [price]="300"
+  img="https://picsum.photos/640/640?r=40"
+></app-product>
+</div>
